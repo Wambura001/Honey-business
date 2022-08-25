@@ -1,0 +1,84 @@
+body {
+    background-color: rgba(104, 69, 28, 0.726);
+    color: rgb(228, 216, 207);
+    border: 2px solid rgb(83, 35, 3);
+    margin: 1cm;
+    padding: 1cm;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(83, 35, 3);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(83, 35, 3);
+    font-style: italic;
+}
+
+.image {
+    background-color: rgba(66, 42, 15, 0.726);
+    width: 6cm;
+    height: auto;
+    padding: 0.5cm;
+}
+
+.navigation {
+    float: left;
+    width: 100%;
+    background-color: rgb(83, 35, 3);
+    color: rgb(228, 216, 207);
+}
+
+.navigation li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navigation a {
+    display: block;
+    float: left;
+    color: rgb(228, 216, 207);
+    border-right: 2px solid #FFFFFF;
+    padding: 3px 10px;
+}
+
+.navigation a.active {
+    background-color: rgba(104, 69, 28, 0.726);
+}
+
+.navigation a:hover:not(.active) {
+    background-color: rgba(104, 69, 28, 0.726);
+}
+
+.footer {
+    clear: left;
+    background-color: #cccccc69;
+    text-align: center;
+    padding: 20px;
+    height: 1%;
+    color: rgb(83, 35, 3);
+}
+
+.form {
+    border: 3px solid white;
+    padding: 10px;
+    margin: 3cm;
+}
+
+.form label {
+    float: left;
+    text-align: right;
+    width: 150px;
+}
+
+.form input {
+    float: right;
+    text-align: left;
+    width: 150px;
+}
+
+reset {
+    color: red;
+}
